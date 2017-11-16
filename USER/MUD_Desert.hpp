@@ -7,6 +7,7 @@ class MUD_Desert {
 		headgear = "LOP_H_Turban";
 		radio = "tf_fadak";
 		nvgoggles = "";
+		vest = "";
 	};
 	class Type {
 		class Soldier_F {
@@ -39,7 +40,7 @@ class MUD_Desert {
 		};
 		class Soldier_TL_F {
 			primaryWeapon = "rhs_weap_akm_gp25";
-			backpack = "tf_mr3000_bwmod_tropen";
+			backpack = "rhs_sidor";
 			addItemsToBackpack[] = {LIST_4("rhs_30Rnd_762x39mm"), LIST_2("rhs_mag_rgd5"), LIST_2("rhs_GRD40_White"), "rhs_GRD40_Green", "rhs_GRD40_Red", LIST_2("rhs_VG40OP_white")};
 			gps = "ItemGPS";
 		};

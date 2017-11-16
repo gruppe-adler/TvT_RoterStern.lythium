@@ -4,6 +4,7 @@ private _winConditions = "true" configClasses (missionConfigFile >> "CfgWinCondi
 
 {
     _preset = [_x,"preset",""] call BIS_fnc_returnConfigEntry;
+
     if (_preset == "") then {
         [_x] call grad_endings_fnc_startWincondition;
     } else {
