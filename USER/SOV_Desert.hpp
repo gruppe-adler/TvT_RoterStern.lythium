@@ -9,6 +9,7 @@ class SOV_Desert {
 		headgear = "rhs_ssh68";
 		radio = "tf_fadak";
 		nvgoggles = "";
+		goggles = "";
 	};
 	class Type {
 		class Soldier_F {

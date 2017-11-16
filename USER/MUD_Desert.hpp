@@ -8,6 +8,7 @@ class MUD_Desert {
 		radio = "tf_fadak";
 		nvgoggles = "";
 		vest = "";
+		goggles = "";
 	};
 	class Type {
 		class Soldier_F {

@@ -5,6 +5,8 @@ _presetParams params ["_time",["_condition","true"],["_reminders",[0]]];
 
 _condition = compile _condition;
 
+_time = ["MISSION_DURATION", _time] call BIS_fnc_getParamValue;
+
 [{
     params ["_winName","_condition"];
     [_condition, {[_this] call grad_endings_fnc_endMissionServer}, _winName] call CBA_fnc_waitUntilAndExecute;

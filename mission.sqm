@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=3115;
+		nextID=3121;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=100;
+		nextID=104;
 	};
 	class Camera
 	{
-		pos[]={4406.9307,592.55548,17377.553};
-		dir[]={0.81851333,-0.44975743,0.35779136};
-		up[]={0.4121615,0.89309567,0.18016523};
-		aside[]={0.40056479,-6.982591e-007,-0.91636521};
+		pos[]={4476.3735,613.4527,17435.797};
+		dir[]={-0.94097042,-0.25595123,0.22160815};
+		up[]={-0.24915224,0.96668476,0.058678273};
+		aside[]={0.22924174,2.8748764e-007,0.97338873};
 	};
 };
 binarizationWanted=0;
@@ -70,13 +70,15 @@ addons[]=
 	"A3_Rocks_F_Argo_Limestone",
 	"CUP_Editor_Plants_Config",
 	"A3_Structures_F_Argo_Decals_Horizontal",
-	"afghan_houses"
+	"afghan_houses",
+	"po_main",
+	"rhs_main"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=40;
+		items=42;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -343,6 +345,19 @@ class AddonsMetaData
 			className="afghan_houses";
 			name="afghan_houses";
 		};
+		class Item40
+		{
+			className="po_main";
+			name="po_main";
+			author="Leight, Keeway";
+		};
+		class Item41
+		{
+			className="rhs_main";
+			name="rhs_main";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
 	};
 };
 randomSeed=7199820;
@@ -402,7 +417,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=995;
+		items=999;
 		class Item0
 		{
 			dataType="Layer";
@@ -26786,8 +26801,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4467.8027,556.45905,17276.73};
-				angles[]={6.2257471,2.9974637,6.2464032};
+				position[]={4444.7617,557.62262,17277.246};
+				angles[]={6.2081313,2.9974637,6.2118044};
 			};
 			side="Empty";
 			flags=4;
@@ -26797,7 +26812,6 @@ class Mission
 			};
 			id=1232;
 			type="CUP_b_Elderberry2s_PMC";
-			atlOffset=-0.064025879;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -41762,6 +41776,70 @@ class Mission
 			};
 			id=3104;
 			type="jbad_House3";
+		};
+		class Item995
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3838.2688,675.8006,17805.92};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=3115;
+			type="lop_Flag_tak_F";
+			atlOffset=0.0013427734;
+		};
+		class Item996
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3851.5437,676.07178,17864.029};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=3116;
+			type="lop_Flag_tak_F";
+			atlOffset=0.0013427734;
+		};
+		class Item997
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4963.9629,574.14105,17474.605};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="call{this setFlagTexture ""data\flag_ussr_co2.paa"";}";
+			};
+			id=3119;
+			type="rhs_Flag_Russia_F";
+		};
+		class Item998
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5028.4556,574.32001,17487.85};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="call{this setFlagTexture ""data\flag_ussr_co2.paa"";}";
+			};
+			id=3120;
+			type="rhs_Flag_Russia_F";
 		};
 	};
 	class Connections
