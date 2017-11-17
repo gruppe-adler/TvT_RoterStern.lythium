@@ -7,7 +7,7 @@ class MUD_Desert {
 		headgear = "LOP_H_Turban";
 		radio = "tf_fadak";
 		nvgoggles = "";
-		vest = "";
+		vest = "rhs_6sh46";
 		goggles = "";
 	};
 	class Type {
