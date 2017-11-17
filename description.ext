@@ -141,9 +141,9 @@ class CfgSounds {
 
 //GRAD LOADOUT =================================================================
 class Loadouts {
-    baseDelay = 1;
+    baseDelay = 5;
     handleRadios = 1;
-    resetLoadout = 0;
+    resetLoadout = 1;
 
     class Faction {
 		#include "node_modules\grad-factions-tvt\loadouts.hpp"
