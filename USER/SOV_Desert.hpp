@@ -10,6 +10,10 @@ class SOV_Desert {
 		radio = "tf_fadak";
 		nvgoggles = "";
 		goggles = "";
+		compass = "ItemCompass";
+		watch = "ItemWatch";
+		map = "ItemMap";
+		binoculars = "Binocular";
 	};
 	class Type {
 		class Soldier_F {
@@ -39,10 +43,7 @@ class SOV_Desert {
 			backpack = "rhs_sidor";
 			addItemsToBackpack[] = {LIST_2("rhs_100Rnd_762x54mmR_green"), "rhs_100Rnd_762x54mmR"};
 			binoculars = "Binocular";
-			map = "ItemMap";
 			radio = "tf_fadak";
-			compass = "ItemCompass";
-			watch = "ItemWatch";
 		};
 		class Medic_F {
 			vest = "rhs_6b23_ML_medic";
